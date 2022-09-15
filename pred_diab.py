@@ -24,7 +24,7 @@ df_dt2['espessura_triceps'].fillna(df_dt2['espessura_triceps'].median(), inplace
 df_dt2['insulina'].fillna(df_dt2['insulina'].mean(), inplace=True)
 df_dt2['imc'].fillna(df_dt2['imc'].median(), inplace=True)
 
-# CONSTRUÇÃO DO MODELO
+# CONSTRUÇÃO DO MODELO PARA O FEMININO
 
 std_list = ['n_gravidez', 'glicose', 'pressao_sanguinea', 'espessura_triceps', 'insulina', 'imc',
                      'hist_familiar_D', 'idade']
@@ -107,3 +107,5 @@ else:
     pickle_out = open("pre_lgbm.pkl", mode="wb")
     pickle.dump(lgbm, pickle_out)
     pickle_out.close()
+
+
