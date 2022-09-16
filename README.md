@@ -13,15 +13,20 @@ Construir um modelo usando aprendizado de máquina para prever com precisão a p
 aplicativo baseado na Web.
 
 # Motivação
+Dados da Federação Internacional de Diabetes revela que o número de pessoas com a doença aumentou em 74 milhões, totalizando 537 milhões de adultos no mundo em 2021. No Brasil, as estimativas mais recentes somam 16,8 milhões de pessoas com a doença, cerca de 7% da população. Desenvolver uma ferramenta que contribua para auxiliar os médicos e permita que as pessoas conheçam seus riscos de desenvolver diabetes é simplesmente motivador.
 
 # Abordagens técnicas
+. As abordagens técnicas são tomadas a partir da metodologia ágil para negócios: adaptado de CRISP-MD
 
 # Tecnologias utilizadas
 • [Python][ https://www.python.org/ ]
+• [sklearn][https://scikit-learn.org/stable/modules/ensemble.html]
+• [lightgbm][https://lightgbm.readthedocs.io/en/latest/pythonapi/lightgbm.LGBMClassifier.html]
 • [Streamlit][ https://docs.streamlit.io/library/get-started ]
 • [Dataset][Conjunto de dados]
 
 # Resultados
+Os resultados mostram que LGBMClassifier tem o melhor modelo, pois entre os quatro classificador ele obteve  97,4% de precisão.
  
 # Contato 
 • [Linkedin ][https://www.linkedin.com/in/oberdan-costa-0807572/]
